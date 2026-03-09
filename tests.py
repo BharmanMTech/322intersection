@@ -10,7 +10,7 @@ plagiarism.
 """
 
 import unittest
-from SegmentIntersection import get_orientation, on_segment, do_intersect
+from main import get_orientation, on_segment, do_intersect
 
 
 class TestSegmentIntersection(unittest.TestCase):
