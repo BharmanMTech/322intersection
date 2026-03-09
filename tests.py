@@ -10,10 +10,10 @@ plagiarism.
 """
 
 import unittest
-from main import get_orientation, on_segment, do_intersect
+from SegmentIntersection import get_orientation, on_segment, do_intersect
 
 
-class TestSegmentIntersection(unittest.TestCase):# comment
+class TestSegmentIntersection(unittest.TestCase):
 
     def test_collinear(self):
         p = (1, 1)
